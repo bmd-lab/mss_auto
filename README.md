@@ -1,5 +1,5 @@
 # mss_auto
-draft for  mss_auto project
+draft for  mss_auto software
 # README
         MSS-Auto is an open-source software for making slab structure in batch from given unit cell. 
     Before running it, the following things you need to know.
