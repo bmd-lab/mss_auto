@@ -4,8 +4,8 @@ draft for  mss_auto software
         MSS-Auto is an open-source software for making slab structure in batch from given unit cell. 
     Before running it, the following things you need to know.
 # The dependent packages
-## pymatgen
-## numpy
+### pymatgen
+### numpy
 # How to run it
              After create a folder for storing unit cell files, and put the MSS-Auto.py in the 
         same lever folder with that. Then you need prepare some unit cell files with POSCAR
