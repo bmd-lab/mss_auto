@@ -7,22 +7,22 @@ draft for  mss_auto software
 ### pymatgen
 ### numpy
 # How to run it
-             After create a folder for storing unit cell files, and put the MSS-Auto.py in the 
-        same lever folder with that. Then you need prepare some unit cell files with POSCAR
-        format and named id+POSCAR.You can open your terminal and switch to the catalog 
+             After creating a folder for storing unit cell files, and putting the MSS-Auto.py in the 
+        same lever folder with that you need to prepare some unit cell files with POSCAR
+        format and named id+POSCAR. Opening your terminal and switch to the catalog 
         containing MSS-Auto.py, inputting python MSS-Auto.py -h, you will get:
             Hello!!
-                 Before running this script, you are expecting to create a new folder
-                 for storing the unit cell files and fill the following three options
+                 Before running this script, you are expecting to create a new folder named
+                 unit_cell for storing the unit cell files and fill the following three options
                  with right information
                 Options:
                  -n,  --name   the name of unit cell folder
                  -l,  --length   the length of empty layer
                  -d,  --direction   the direction of making supercell
             So, you need to fill these messages in your command line, such as:
-        python MSS-Auto.py -l 10 -d z -n unit, this means you want to make slab 
-        from z direction, insert 10 angstrom thickness empty layer, and the name of 
-        folder storing unit cell files is unit.
+        python MSS-Auto.py -l 10 -d z, this means you want to make slab 
+        from z direction, insert 10 angstrom thickness empty layer. You can also name as you wish
+        and specific it in your command line.
 # Output
             You will get another two folders, super and slab, if you run MSS-Auto.py successfully. 
         The super folder contains supercell files, which the thickness is bigger than 15 angstroms 
