@@ -1,6 +1,6 @@
-# mss_auto
+# MSS_Auto
 
-draft for  mss_auto software
+A draft README file for the MSS_Auto python code.
 
 ## README
 
