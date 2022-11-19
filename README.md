@@ -24,9 +24,9 @@ you should get the following:
                  unit_cell for storing the unit cell files and fill the following three options
                  with right information
                 Options:
-                 -n,  --name   the name of unit cell folder
-                 -l,  --length   the length of empty layer
-                 -d,  --direction   the direction of making supercell
+                 -n,  --name   the name of unit cell folder (if not unit_cells)
+                 -l,  --length   the length of vacuum layer in Angstroms
+                 -d,  --direction   the direction of making supercell, either 'x', 'y' or 'z'
 
 So, you need to fill these options on your command line. For example,
 
