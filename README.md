@@ -28,15 +28,15 @@ you should get the following:
                  -l,  --length   the length of vacuum layer in Angstroms
                  -d,  --direction   the direction of making supercell, either 'x', 'y' or 'z'
 
-So, you need to fill these options on your command line. For example,
+So, you need to fill in at least the -n and -d options on your command line. For example,
 
         python MSS-Auto.py -l 10 -d z
         
-this means you want to make slab from z direction, insert 10 angstrom thickness empty layer. You can also name as you wish and specific it in your command line.
+this means you want to make slab supercell in the z direction and insert a 10 angstrom thick vacuum layer. You can also specify a different name for the folder containing the unit cells with the -n option.
 
 ## Output
 
-You will get another two folders, super and slab, if you run MSS-Auto.py successfully.  The super folder contains supercell files, which the thickness is bigger than 15 angstroms along with the direction you input. And the slab folder may contain many subfolders, the slab structures we needed are in final slab folder, others are processing files that can help you check.  
+If MSS-Auto.py ran successfully, the code will generate another two folders, 'super' and 'slab'.  The super folder contains supercell structure files, where the thickness is bigger than 15 angstroms along with the direction of your input. The slab folder may contain many subfolders, the slab structures we needed are in final slab folder, others are processing files that can help you check that the process ran successfully. 
  
  
  
