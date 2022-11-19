@@ -7,7 +7,7 @@ A draft README file for the MSS_Auto python code.
 MSS-Auto is an open-source software for making slab structures (MSS) in batch from a given unit cell automatically. All files are designed to work with the Vienna Ab Initio Software Package (VASP) POSCAR format. 
 Before running the code, please be aware of the following:
 
-## The dependencies 
+## Requirements
  - pymatgen
  - numpy
 
